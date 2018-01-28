@@ -39,8 +39,8 @@ public class PWMActivity extends Activity {
     private static final double PULSE_PERIOD_MS = 20;  // Frequency of 50Hz (1000/20)
 
     // Parameters for the servo movement over time
-    private static final double PULSE_CHANGE_PER_STEP_MS = 0.2;
-    private static final int INTERVAL_BETWEEN_STEPS_MS = 1000;
+    private static final double PULSE_CHANGE_PER_STEP_MS = 0.5;
+    private static final int INTERVAL_BETWEEN_STEPS_MS = 100;
 
     private Handler mHandler = new Handler();
     private Pwm mPwm;
